@@ -1,4 +1,11 @@
-<script></script>
+<script>
+export default {
+  name: "ContactPage",
+  data() {
+    return {};
+  },
+};
+</script>
 
 <template></template>
 
