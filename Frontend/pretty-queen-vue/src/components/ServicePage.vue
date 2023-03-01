@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <script>
 import NavigationBar from "./NavigationBar.vue";
 import Footer from "./Footer.vue";
@@ -9,7 +8,6 @@ export default {
   },
 };
 </script>
-
 <template>
   <body>
     <NavigationBar />
@@ -17,8 +15,4 @@ export default {
   </body>
 </template>
 
-=======
-<script></script>
-<template></template>
->>>>>>> 9b1decce1e61d9e418710d91baf1dc308804cd1f
 <style scoped></style>
