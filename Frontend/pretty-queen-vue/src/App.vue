@@ -1,19 +1,16 @@
 <script>
-import NavigationBar from "./components/NavigationBar.vue";
-import Footer from "./components/Footer.vue";
+import Home from "./components/Home.vue";
 
 export default {
   components: {
-    NavigationBar,
-    Footer,
+    Home,
   },
 };
 </script>
 
 <template>
   <body>
-    <NavigationBar />
-    <Footer />
+    <router-view />
   </body>
 </template>
 

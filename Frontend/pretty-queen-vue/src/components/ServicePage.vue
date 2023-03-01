@@ -3,6 +3,10 @@ import NavigationBar from "./NavigationBar.vue";
 import Footer from "./Footer.vue";
 export default {
   name: "ServicePage",
+  components: {
+    NavigationBar,
+    Footer,
+  },
   data() {
     return {};
   },
@@ -11,6 +15,7 @@ export default {
 <template>
   <body>
     <NavigationBar />
+    <h1>Hello Services</h1>
     <Footer />
   </body>
 </template>
