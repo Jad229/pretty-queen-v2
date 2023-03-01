@@ -1,0 +1,113 @@
+/* DEVELOPER: Justin Diaz  */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("marble-texture.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header,
+header .navbar a {
+  color: #ffe05d;
+}
+
+header .dropdown-menu a {
+  color: #f1ffab;
+}
+
+header .navbar-brand {
+  font-size: 1.3rem;
+}
+
+#book-appointment-btn {
+  background-color: #ffe05d;
+}
+.service-content h1 {
+  text-align: center;
+}
+.treatment-card h5 {
+  color: #ffe05d;
+}
+.treatment-card p {
+  color: lightgrey;
+}
+@media (max-width: 700px) {
+  .fullnav {
+    display: none;
+  }
+  #sidenav {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+}
+.side-menu {
+  min-height: 88.6vh;
+  min-width: 20vw;
+}
+
+.side-menu h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.side-menu button {
+  font-size: 2rem;
+}
+
+.hero-section {
+  margin: 3% auto;
+}
+
+.hero-card {
+  max-width: 30%;
+  margin: auto;
+}
+.card-body h1 {
+  font-weight: 900;
+}
+.card-body {
+  margin: 50px auto 0;
+  width: 60%;
+  text-align: center;
+}
+
+.card-btn {
+  max-width: 170px;
+  height: 78px;
+}
+.business-info,
+.client-contact {
+  text-align: center;
+}
+.subject-box,
+.message-box {
+  text-align: center;
+}
+
+.subject-box input {
+  width: 78vw;
+  height: 10vh;
+}
+.carousel {
+  margin: 5% auto;
+  width: 640px;
+  height: 360px;
+}
+
+.about-container {
+  text-align: center;
+}
+.about-content {
+  margin: auto;
+}
