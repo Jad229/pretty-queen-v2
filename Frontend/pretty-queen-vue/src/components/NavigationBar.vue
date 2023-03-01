@@ -6,43 +6,48 @@ export default {
   },
 };
 </script>
+
 <template>
   <header class="sticky-top">
     <div class="fullnav">
       <nav class="navbar bg-dark">
         <div class="container-fluid">
-          <a href="index.html" class="navbar-brand">Pretty Queen</a>
+          <router-link to="/" class="navbar-brand">Pretty Queen</router-link>
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact.html"
-                >RSVP
-              </a>
+              <router-link to="/contact" class="nav-link" aria-current="page"
+                >RSVP</router-link
+              >
             </li>
             <li class="nav-item dropdown">
-              <a
+              <router-link
+                to="/services"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                href="services.html"
                 role="button"
                 aria-expanded="false"
-                >Services
-              </a>
+                >Services</router-link
+              >
               <ul class="dropdown-menu bg-dark">
                 <li>
-                  <a class="dropdown-item btn btn-dark" href="services.html"
-                    >Services</a
+                  <router-link to="/services" class="dropdown-item btn btn-dark"
+                    >Services</router-link
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html">Products</a>
+                  <router-link to="/products" class="dropdown-item"
+                    >Products</router-link
+                  >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <router-link to="/about" class="nav-link">About Us</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <router-link to="/contact" class="nav-link"
+                >Contact Us</router-link
+              >
             </li>
           </ul>
         </div>
@@ -51,38 +56,42 @@ export default {
     <div class="hamburger">
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-          <a href="index.html" class="text-white">Pretty Queen</a>
+          <router-link to="/" class="text-white">Pretty Queen</router-link>
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact.html"
-                >Book Appointment</a
+              <router-link to="/contact" class="nav-link" aria-current="page"
+                >Book Appointment</router-link
               >
             </li>
             <li class="nav-item dropdown">
-              <a
+              <router-link
+                to="/services"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                href="#"
                 role="button"
                 aria-expanded="false"
-                >Services</a
+                >Services</router-link
               >
               <ul class="dropdown-menu bg-dark">
                 <li>
-                  <a class="dropdown-item btn btn-dark" href="services.html"
-                    >Services</a
+                  <router-link to="/services" class="dropdown-item btn btn-dark"
+                    >Services</router-link
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html">Products</a>
+                  <router-link to="/products" class="dropdown-item"
+                    >Products</router-link
+                  >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <router-link to="/about" class="nav-link">About Us</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <router-link to="/contact" class="nav-link"
+                >Contact Us</router-link
+              >
             </li>
           </ul>
         </div>
