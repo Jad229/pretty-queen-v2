@@ -1,8 +1,10 @@
 /* DEVELOPER: Justin Diaz  */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap");
+
 * {
   padding: 0;
   margin: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: "Lora", serif;
 }
 body {
   min-height: 100vh;

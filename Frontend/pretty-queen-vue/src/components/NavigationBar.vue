@@ -115,4 +115,10 @@ export default {
   </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+}
+</style>
